@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Naz Air Charter – Luxury Private Jet Charter</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<header class="header">
+  <h1 class="brand">Naz Air Charter</h1>
+  <nav>
+    <a href="#hero">Home</a>
+    <a href="#booking">Booking</a>
+    <a href="#status">Live Status</a>
+    <a href="#crm">CRM</a>
+  </nav>
+</header>
+
+<section id="hero" class="hero">
+  <img src="assets/jet.jpg" class="hero-img" alt="Private Jet">
+  <h2>Luxury Private Jet Flights</h2>
+  <p>Elite charter service • Real-time tracking • Concierge experience</p>
+</section>
+
+<section id="booking" class="booking">
+  <h2>Request a Charter</h2>
+  <form id="bookingForm" class="booking-form">
+    <label>Name</label><input id="name" type="text" required>
+    <label>Email</label><input id="email" type="email" required>
+    <label>From</label><input id="from" type="text" required>
+    <label>To</label><input id="to" type="text" required>
+    <label>Date</label><input id="date" type="date" required>
+    <label>Passengers</label><input id="pax" type="number" min="1" max="16" required>
+    <button type="submit">Submit Request</button>
+  </form>
+  <p id="bookingMessage"></p>
+</section>
+
+<section id="status" class="status">
+  <h2>Live Flight Status</h2>
+  <table id="liveFlights">
+    <tr><th>Callsign</th><th>Route</th><th>ETA</th><th>Status</th></tr>
+  </table>
+</section>
+
+<section id="crm" class="crm">
+  <h2>CRM / Operations Dashboard</h2>
+  <table id="crmTable">
+    <tr><th>Client</th><th>Route</th><th>Date</th><th>PAX</th></tr>
+  </table>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Naz Air Charter — All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #060b18;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background: #0d1426;
+  padding: 20px;
+  text-align: center;
+}
+.header nav a {
+  margin: 0 15px;
+  color: #c9d1e8;
+  text-decoration: none;
+}
+.brand { font-size: 32px; color: #fff; }
+.hero {
+  text-align: center;
+  padding: 30px;
+}
+.hero-img {
+  width: 90%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+.booking, .status, .crm {
+  padding: 20px;
+}
+.booking-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+.booking-form input, button {
+  padding: 10px;
+  border-radius: 8px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+th, td {
+  border-bottom: 1px solid #333;
+  padding: 10px;
+}
+.footer {
+  text-align: center;
+  background: #0d1426;
+  padding: 20px;
+}
